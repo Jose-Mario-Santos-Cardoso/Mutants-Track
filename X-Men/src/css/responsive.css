@@ -1,0 +1,19 @@
+@media(max-width: 620px) {
+    .head{
+        padding: 30px 0;
+    }
+    .shoulders{
+        padding: 0 15px;
+        gap: 10px;
+    }
+    
+    .btn-seta{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+    }
+    
+    .mutants-list{
+        height: 480px;
+    }
+}

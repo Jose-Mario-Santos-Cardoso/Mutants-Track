@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fundo-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.head{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.head h1{
+    color: #9932CC;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.shoulders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.mutants-list{
+    width: 330px;
+    height: 520px;
+    position: relative;
+}
+
+.btn-seta{
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-seta.btn-backward{
+    transform: rotateY(180deg);
+}
+
+.btn-seta:hover{
+    background-color: #8351fe;
+}
+
+.cartao{
+    opacity: 0;
+    height: 100%;
+    position: absolute;
+    padding: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartao.selected{
+    opacity: 1;
+    z-index: 1;
+}
+
+.cartao .img-mutant{
+    width: 100%;
+    max-height: 280px;
+}
+
+.cartao .name{
+    background-color: rgba(179, 177, 185, 0.7);
+    padding: 8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.cartao .description{
+    background-color: rgba(255, 255, 255, 0.8);
+    max-height: 300px;
+    overflow-y: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cartao .description .title{
+    background-color: #333333;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 12px;
+}
+
+.cartao .description .text{
+    background-color: #708090;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 12px;
+    padding: 12px;
+    text-align: justify;
+    overflow-y: auto;
+}
+
+.cartao.fundo-1{
+    background: url('../img/fundo-1.png')no-repeat;
+}
+
+.cartao.fundo-2{
+    background: url('../img/fundo-2.png')no-repeat;
+}
+
+.cartao.fundo-3{
+    background: url('../img/fundo-3.png')no-repeat;
+}
+
+.cartao.fundo-4{
+    background: url('../img/fundo-4.png')no-repeat;
+}
+
+.cartao.fundo-5{
+    background: url('../img/fundo-5.png')no-repeat;
+}
+
+.cartao.fundo-6{
+    background: url('../img/fundo-6.png')no-repeat;
+}
+
+.cartao.fundo-7{
+    background: url('../img/fundo-7.png')no-repeat;
+}
+
+.cartao.fundo-8{
+    background: url('../img/fundo-8.png')no-repeat;
+}
+
+.cartao.fundo-9{
+    background: url('../img/fundo-9.png')no-repeat;
+}
+
+.cartao.fundo-10{
+    background: url('../img/fundo-10.png')no-repeat;
+}
